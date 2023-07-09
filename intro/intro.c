@@ -1,7 +1,7 @@
 /*
 * Author: Carl Angelo G. Angcana
 *
-* [Topic for today]
+* Introduction to C Programming
 * 
 * July 7, 2023
 */
