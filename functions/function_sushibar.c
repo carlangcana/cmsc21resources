@@ -8,16 +8,11 @@
 
 #include<stdio.h>
 
-void greetings(){
-    printf("Irasshaimase! What can I do for you?\n");
-}
+/* Function Prototypes */
+void greetings();
+int wallet(int cash);
 
-int wallet(int cash){
-    int balance = 0;
-    balance = balance + cash;
-    return balance;
-}
-
+/* Main Function */
 int main() {
     int i, cash, cost;
     greetings();
@@ -59,4 +54,14 @@ int main() {
             break;
         }
     }while(i!=5);
+}
+
+void greetings(){
+    printf("Irasshaimase! What can I do for you?\n");
+}
+
+int wallet(int cash){
+    int balance = 0;
+    balance = balance + cash;
+    return balance;
 }
