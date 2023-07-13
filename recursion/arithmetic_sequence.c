@@ -6,6 +6,9 @@
  * July 13, 2023
 */
 
+
+// Arithmetic sequence is an ordered set of numbers that have a common difference between each consecutive term
+
 #include<stdio.h>
 
 void arithmetic_sequence(int a, int b, int n);
