@@ -1,3 +1,11 @@
+/****
+ * Author: Carl Angelo G. Angcana
+ * 
+ * Topic: Recursion in C
+ * 
+ * July 13, 2023
+*/
+
 #include<stdio.h>
 
 int main(){
