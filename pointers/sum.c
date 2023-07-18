@@ -1,11 +1,9 @@
 /***
- * Created by: Carl Angelo G. Angcana
+ * Author by: Carl Angelo G. Angcana
  * 
  * Topic: Pointers: Memory Addresses, Pointer Representation, Pointer Operators, Pointer to pointers, Dynamically Allocated Variables
  * 
- * July 16, 2023
- * 
- * Case Source: CS 21 Fundamentals of Programming - UPLB by KBP Pelaez.
+ * July 19, 2023
 */
 
 #include <stdio.h>
