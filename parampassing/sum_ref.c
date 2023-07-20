@@ -22,5 +22,5 @@ void getSum(int *x, int *y, int *sum){
     scanf("%d", x);
     printf("Get X: ");
     scanf("%d", y);
-    *sum = *x + *y;
+    *sum = *x % *y;
 }
