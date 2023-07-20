@@ -1,3 +1,16 @@
+/***
+ * Created by: Carl Angelo G. Angcana
+ * 
+ * Topic: Counting Positive and Negative Numbers using Arrays in C
+ * 
+ * July 19, 2023
+ * 
+*/
+
+// gcc -o countpn countpn.c
+// Enter the size of arrays: n
+// Enter the elements (inputs): Could be 1, -2, 3... n
+
 #include <stdio.h>
 
 void count_pos_neg(int *a, int n, int *count_neg, int *count_pos){
