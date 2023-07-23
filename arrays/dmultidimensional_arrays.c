@@ -38,5 +38,9 @@ int main() {
         printf("\n");
     }
 
+    for(int i = 0; i < row; i++){
+        free(number[i]);
+    }free(number);
+
     return 0;
 }
