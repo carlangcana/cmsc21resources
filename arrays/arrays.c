@@ -15,7 +15,27 @@
 // array) C Arrays can only store one type of data which should be specified upon declaration.
 
 #include<stdio.h>
+#include<stdlib.h>
+
+void displayArray(int *A){
+    int i;
+    for(i=0; i<100; i++){
+        printf("%d\n", *(A)+i);
+    }
+}
 
 int main(){
-    int number[10];
+    int size=3;
+    int *number;
+    number = (int*) malloc(sizeof(int));
+
+    int i;
+    for(i=0; i<100; i++){
+        number[i] = i;
+    }
+
+    displayArray(number);
+    free(number);
+
+    return 0;
 }
