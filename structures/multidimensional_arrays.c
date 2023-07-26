@@ -2,6 +2,8 @@
  * Created by Carl Angelo G. Angcana
  * 
  * Topic: Implementation of Multidimensional Arrays in structures of C
+ * 
+ * Date: Jul 27, 2023
 */
 
 #include <stdio.h>

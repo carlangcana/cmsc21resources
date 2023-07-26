@@ -2,6 +2,8 @@
  * Created by Carl Angelo G. Angcana
  * 
  * Topic: Use of pointer operations in structures.
+ * 
+ * Date: July 27, 2023
 */
 
 #include <stdio.h>

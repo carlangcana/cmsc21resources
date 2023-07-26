@@ -1,3 +1,11 @@
+/****
+ * Created by Carl Angelo G. Angcana
+ * 
+ * Topic: Structures definitions of C
+ * 
+ * Date: Jul 27, 2023
+*/
+
 #include<stdio.h>
 #include <string.h>
 
@@ -21,6 +29,7 @@ typedef struct student
     int powerlevel;
     struct abilities skill;
 } wizard;
+
 
 int main() {
 	struct student harry = {"Harry", "Styles", "Azkaban", 12, {5,7}, 70, 90};

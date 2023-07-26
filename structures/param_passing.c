@@ -2,6 +2,8 @@
  * Created by: Carl Angelo G. Angcana
  * 
  * Topic: Passing structures as parameters in functions in C  
+ * 
+ * Date: Jul 27, 2023
 */
 
 
