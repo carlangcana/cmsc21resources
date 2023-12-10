@@ -21,7 +21,7 @@ int main(){
     char name[10];
     char computer[10] = "computer";
     printf("What is your name?:");
-    scanf("%s", computer);
+    scanf("%s", name);
 
     printf("Hi %s!, I am the %s!\n", name, computer);
 
